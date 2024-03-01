@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <center>
+        <h1>webpages_create pages</h1>
+        <form method="POST">
+            {% csrf_token %}
+                {{ EWPO.as_p }}
+            <input type="submit" value="webpages_create">
+        </form>
+    </center>
+    
+</body>
+</html>
